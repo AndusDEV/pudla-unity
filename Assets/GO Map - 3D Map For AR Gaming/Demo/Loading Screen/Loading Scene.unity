@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 71f14a2d79f732f4d9893ef1b911f4ff, type: 2}
+  m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.7279642, g: 0.78694695, b: 0.85056585, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -206,7 +206,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Jak du\u017Co TY ich z\u0142apiesz?"
+  m_Text: 3D map for AR gaming
 --- !u!222 &328766025
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -335,7 +335,7 @@ RectTransform:
   m_GameObject: {fileID: 550678603}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.4, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2107817623}
   m_RootOrder: 0
@@ -378,7 +378,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 14e731602a599924180e3f3a4dcec353, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e0cb20962d18b445eb65e760e0f88cb3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -481,7 +481,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Czekam na pozycje GPS...
+  m_Text: Waiting for GPS position...
 --- !u!222 &788407324
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -849,7 +849,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Pud\u0142a"
+  m_Text: GO Map
 --- !u!222 &1272966417
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -979,8 +979,8 @@ MonoBehaviour:
   clearCache: 0
   openCache: 0
   mapbox_accessToken: pk.eyJ1IjoiYWxhbmdyYW50IiwiYSI6ImNpdHdtMXEwdTAwMXozbms5NzBoOGh4djcifQ.SONpcZWMGNpaFk9tCsupaQ
-  osm_api_key: m
-  mapzen_legacy_api_key: m
+  osm_api_key: 
+  mapzen_legacy_api_key: 
   mapType: 0
   useElevation: 0
   useSatelliteBackground: 0
