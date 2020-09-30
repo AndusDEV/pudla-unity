@@ -1555,8 +1555,7 @@ PrefabInstance:
     - target: {fileID: 11458246, guid: 2eb893fe48df34d2f8555a95c4675ac6, type: 3}
       propertyPath: pois.renderingOptions.Array.data[0].prefab
       value: 
-      objectReference: {fileID: 919132149155446097, guid: 6a380d8111d9e144e973e54c89c79d05,
-        type: 3}
+      objectReference: {fileID: 191634, guid: 45ab07dc58f034ade95a5bfaa0fca008, type: 3}
     - target: {fileID: 11458246, guid: 2eb893fe48df34d2f8555a95c4675ac6, type: 3}
       propertyPath: pois.renderingOptions.Array.data[1].kind
       value: 204
@@ -1564,8 +1563,7 @@ PrefabInstance:
     - target: {fileID: 11458246, guid: 2eb893fe48df34d2f8555a95c4675ac6, type: 3}
       propertyPath: pois.renderingOptions.Array.data[1].prefab
       value: 
-      objectReference: {fileID: 919132149155446097, guid: b43c26e32a4e52c4ab32b025ccb3806f,
-        type: 3}
+      objectReference: {fileID: 191634, guid: 45ab07dc58f034ade95a5bfaa0fca008, type: 3}
     - target: {fileID: 11458246, guid: 2eb893fe48df34d2f8555a95c4675ac6, type: 3}
       propertyPath: pois.renderingOptions.Array.data[2].kind
       value: 237
@@ -1581,7 +1579,7 @@ PrefabInstance:
     - target: {fileID: 11458246, guid: 2eb893fe48df34d2f8555a95c4675ac6, type: 3}
       propertyPath: pois.renderingOptions.Array.data[3].prefab
       value: 
-      objectReference: {fileID: 191634, guid: 7d901a73a3d224caaa8a7670ebfc47cc, type: 3}
+      objectReference: {fileID: 191634, guid: 45ab07dc58f034ade95a5bfaa0fca008, type: 3}
     - target: {fileID: 11458246, guid: 2eb893fe48df34d2f8555a95c4675ac6, type: 3}
       propertyPath: labels.preferredLanguage
       value: 0
