@@ -53,7 +53,7 @@ namespace GoMap
         void Start()
         {
             slider.value = 0;
-            sliderLabel.text = "Waiting for GPS position...";
+            sliderLabel.text = "Czekam na pozycje GPS...";
 
             //Register to the location manager event. This will be fired once a valid GPS position is acquired. 
             locationManager.onOriginSet.AddListener((Coordinates) => { OnOriginSet(Coordinates); });
@@ -75,7 +75,7 @@ namespace GoMap
 
             //Update the max slider value
             slider.maxValue = adiacentTiles.Count;
-            sliderLabel.text = "Downloading map data...";
+            sliderLabel.text = "Pobieram dane mapy...";
 
             //Create a GOTile obejct for each tile coordinates pair
             foreach (Vector2 tileCoords in adiacentTiles)
